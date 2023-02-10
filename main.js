@@ -48,7 +48,7 @@ function totalPrise(){
     document.getElementById('tax').innerText = Math.round(tax);
 
     const total = subTotal + tax;
-    document.getElementById('total').innerText = total;
+    document.getElementById('total').innerText = Math.round(total);
 }
 
 document.getElementById('remove-phone').addEventListener('click', function(){
